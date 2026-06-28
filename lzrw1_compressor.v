@@ -4,7 +4,7 @@ module lzrw1_compressor #(
     parameter ADDR_WIDTH = 24,      // Upgraded: 24-bit pointers = 16 Megabyte max file size
     parameter HASH_WIDTH = 12       // 4096 Hash table entries (Standard LZRW1)
 )(
-    input wire clk,            // Mandated clock naming
+    input wire clk,            
     input wire rst,
     
     input wire start,
